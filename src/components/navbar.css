@@ -1,0 +1,28 @@
+.navBox {
+  border: 1px solid orange;
+  padding: 2px;
+  background-color: var(--nav-color);
+}
+.navBox > div {
+  border: 1px solid blue;
+  padding: 5px;
+}
+
+.navBox > div:nth-child(1) {
+  width: 10%;
+}
+
+.navBox > div:nth-child(2) {
+  width: 50%;
+  color: var(--heading);
+}
+
+.navBox > div:nth-child(3) {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navBox > div:nth-child(3) > div {
+  border: 1px solid green;
+}

@@ -1,0 +1,25 @@
+/* src/index.css */
+@import "./styles/_variables.scss";
+
+[data-theme="light"] {
+  --bg-color: var(--white-color);
+  --text-color: var(--white-color);
+  --primary-color: var(--primary-color);
+  --nav-color: purple;
+  --heading: white;
+}
+
+[data-theme="dark"] {
+  --bg-color: var(--black-color);
+  --text-color: var(--secondary-color);
+  --primary-color: var(--primary-color);
+  --nav-color: white;
+  --heading: black;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  --primary-color: var(--primary-color);
+}

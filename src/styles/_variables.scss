@@ -1,0 +1,16 @@
+/* src/styles/_variables.scss */
+/*=============================================
+=            Colors            =
+=============================================*/
+
+$primary: purple;
+$secondary: darkgrey;
+$white: white;
+$black: black;
+
+:root {
+  --primary-color: #{$primary};
+  --secondary-color: #{$secondary};
+  --white-color: #{$white};
+  --black-color: #{$black};
+}
